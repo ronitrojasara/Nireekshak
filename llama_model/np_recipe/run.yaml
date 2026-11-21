@@ -1,0 +1,11 @@
+version: '1.0'
+steps:
+- advanced_quantize:
+  - algorithm: AWQ
+    scheme: W8-A8_dynamic
+- graph_optimize: null
+- graph_quantize:
+  - scheme: W8-A8_dynamic
+    automatic_mixed_precision: null
+profile: []
+evaluate: []

@@ -1,0 +1,24 @@
+{
+  "project_id": "91829236-8547-422b-85d2-750f5e2c54f8",
+  "name": "llama1bi__clean-awq-w8__rpi",
+  "target": {
+    "device": "raspberry_pi_5_16gb",
+    "runtime": "executorch",
+    "backend": "xnnpack"
+  },
+  "gpu_device": "cuda:0",
+  "base_model": {
+    "model_id": "59d59cda-dfa3-4c74-aab4-4d4b4b5ce029",
+    "alias": "llama3_2_1b_instruct_hf_pytorch",
+    "modality": "LLM",
+    "task": "TEXT_GENERATION"
+  },
+  "calibration": {
+    "dataset_id": "a9ae0337-31cf-49c2-827f-6217fef455e3",
+    "dataset_name": "c4_calib_seed42_n200_shuf"
+  },
+  "evaluation": {
+    "dataset_id": "b6912bea-1b55-48e8-9686-dca3efc849ee",
+    "dataset_name": "c4_eval_seed42_n200_shuf"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "datasets": [
+    {
+      "ref_id": "b6912bea-1b55-48e8-9686-dca3efc849ee",
+      "dataset_name": "c4_eval_seed42_n200_shuf",
+      "split": "EVALUATION",
+      "num_samples": 200,
+      "original_dataset_alias": "c4"
+    }
+  ]
+}

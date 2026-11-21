@@ -1,0 +1,11 @@
+{
+  "datasets": [
+    {
+      "ref_id": "a9ae0337-31cf-49c2-827f-6217fef455e3",
+      "dataset_name": "c4_calib_seed42_n200_shuf",
+      "split": "CALIBRATION",
+      "num_samples": 200,
+      "original_dataset_alias": "c4"
+    }
+  ]
+}

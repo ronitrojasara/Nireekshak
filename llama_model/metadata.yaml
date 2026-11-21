@@ -1,0 +1,17 @@
+schema_version: 1.0.0
+report_type: llm-generative
+task_type: text-generation
+title: Llama 3.2 1B Instruct INT8
+description: An INT8-quantized Llama 3.2 1B Instruct causal language model for instruction-following and text generation. Exported as an ExecuTorch program using the XNNPACK backend for inference on Arm CPUs.
+id: Arm/llama3-2-1b-instruct-int8-xnnpack-executorch-raspberrypi5
+base_model_id: meta-llama/Llama-3.2-1B-Instruct
+vendor: Meta
+base_model_url: https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
+profile: Arm-Optimized
+optimization:
+  optimized_by: Nota AI
+  optimized_with: Arm AI Model Optimizer
+weight_dtype: int8
+model_size_mb: 1763.71
+filename: model.pte
+format: pte

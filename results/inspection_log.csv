@@ -1,0 +1,4 @@
+timestamp,sample_file,defect_type,severity,confidence,vision_latency_ms,llm_tokens,llm_tok_per_sec,peak_ram_mb,operator_recommendation
+2026-11-21T14:45:11,10_missing_hole_01.jpg,missing_hole,Medium,0.83,280584.95,16,0.153,2116.9,"""Fix: Apply hole filler to the affected area, re-inspect for complete"
+2026-11-21T14:46:55,10_missing_hole_02.jpg,missing_hole,Medium,0.76,226.96,16,0.154,2142.7,"""Fix: Apply hole filler to the affected area, re-inspect for complete"
+2026-11-21T14:48:39,10_missing_hole_03.jpg,missing_hole,Medium,0.81,224.84,16,0.154,2137.4,"""Fix: Replace missing hole with a new part, re-inspect for quality"
